@@ -1,0 +1,33 @@
+# Section3: 開発効率
+
+- VSCode
+  - ショートカット
+    - ダブルクリックでファイル固定
+    - alt + shift + 上/下 で行を複製
+    - cmd + d で選択中の文字列を検索しつつまとめて操作可能
+    - cmd + [] でインデント/アウトデント
+    - cmd + k -> cmd + s でキーボードショートカット
+    - alt + esc で suggest
+    - cmd + B で左のペインを隠す/出す
+  - ターミナル
+    - cmd + ^ でトグルできるように変更
+    - cmd + w でターミナルを閉じるように変更
+    - cmd + d でターミナルを分割するように変更
+- デバッグ
+  - console.log(arg1, arg2, arg3,...)
+    - console.error, console.warn などもある
+  - chrome dev tools のブレークポイント
+    - source タブからコードを表示させて break point を打ってリロード
+    - debugger 文で js ファイル側から止めることも可能
+    - pose on exception: エラーが起きたらその瞬間で止まるかどうか
+  - vscode 上の js でも nodejs を使ってデバッグ可能
+- JavaScript のドキュメント
+  - [MDN の JavaScript ページ](https://developer.mozilla.org/ja/docs/Web/JavaScript)
+  - const について調べたかったら`MDN const`とかで調べる
+- Mozilla と MDN
+  - ブラウザをオープンソース化する Mozilla プロジェクト
+  - NetScape が潰れドキュメントプラットフォームが終了しかけたところ、Mozilla が回収
+  - 今や MDN は全ての web のドキュメントの集合体になっている
+- ECMAScript
+  - 年に何回かコミッティーにより議論の場が設けられ、アプデ検討がされる。議事録は公開されている。
+  - ECMAScript にはリビングスタンダード版とスナップショット版がある
